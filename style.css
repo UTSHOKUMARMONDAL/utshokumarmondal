@@ -782,5 +782,64 @@ nav ul a.active { color: var(--blue); }
   z-index: 2;
   
 }
+/* Academic Section */
+.academic-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1.5rem;
 
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1rem;
+}
 
+.academic-card {
+    background: #131929;
+    border-radius: 12px;
+    padding: 1.5rem;
+
+    margin: 0;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.academic-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Tablet */
+@media (max-width: 768px) {
+    .academic-grid {
+        grid-template-columns: 1fr;
+        padding: 0.8rem;
+    }
+
+    .academic-card {
+        padding: 1.2rem;
+    }
+}
+
+/* Mobile */
+@media (max-width: 480px) {
+    .academic-grid {
+        gap: 1rem;
+        padding: 0.5rem;
+    }
+
+    .academic-card {
+        padding: 1rem;
+    }
+
+    .academic-card h3 {
+        font-size: 1.1rem;
+    }
+
+    .academic-card p {
+        font-size: 0.95rem;
+    }
+}
+#academic {
+  background: var(--card);
+  border-top: 1px solid var(--border);
+}
