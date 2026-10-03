@@ -57,7 +57,7 @@ I'm a **CSE student at Bangladesh University of Business & Technology (BUBT)**, 
 
 ## 📜 Certifications
 
-Basic of Data Science · Python · Basics in Machine Learning · MS Excel (Uniathena) · Cyber Hygiene (Google) · Prompt Engineering · ElevenLabs · Content with AI · Canva Magic Studio · Synthesia AI
+Certificate Course in PLC (SICIP, 272 hrs) · Basic of Data Science · Python · Basics in Machine Learning · MS Excel (Uniathena) · Cyber Hygiene (Google) · Prompt Engineering · ElevenLabs · Content with AI · Canva Magic Studio · Synthesia AI
 
 ## 📊 GitHub Stats
 
